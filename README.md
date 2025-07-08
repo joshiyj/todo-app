@@ -1,12 +1,36 @@
-# React + Vite
+# ✅ To-Do List App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive to-do list web app built using **React + Vite**, with **localStorage** support. Users can add, complete, and delete tasks with instant UI feedback.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Live Website](https://your-vercel-url.vercel.app) *(replace after deploy)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Features
+
+- Add and delete to-do items
+- Mark tasks as completed
+- State persistence using `localStorage`
+- Mobile responsive & accessible design
+
+---
+
+## 🚀 Tech Stack
+
+- **React** (with Hooks)
+- **Vite**
+- **CSS**
+- **Vercel** for deployment
+- **localStorage** for state persistence
+
+---
+
+## 🛠️ Run Locally
+
+```bash
+npm install
+npm run dev
