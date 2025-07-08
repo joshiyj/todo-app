@@ -1,36 +1,48 @@
-# ✅ To-Do List App (React + Vite)
+# 📝 To-Do App
 
-A clean, responsive to-do list web app built using **React + Vite**, with **localStorage** support. Users can add, complete, and delete tasks with instant UI feedback.
-
----
+A simple and responsive To-Do List web app built using **React + Vite**, allowing users to manage tasks with features like add, delete, and mark as completed. Tasks persist across sessions using **localStorage**.
 
 ## 🔗 Live Demo
 
-👉 [Live Website](https://your-vercel-url.vercel.app) *(replace after deploy)*
+👉 [View Live App](https://todo-app-pearl-chi-85.vercel.app/)
+
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/8e4797f0-144b-426f-ba6c-18dd8bd360ec)
+
 
 ---
 
-## ⚙️ Features
+## ✨ Features
 
-- Add and delete to-do items
-- Mark tasks as completed
-- State persistence using `localStorage`
-- Mobile responsive & accessible design
+- ✅ Add new tasks
+- 🟠 Mark tasks as completed or uncompleted
+- ❌ Delete tasks
+- 💾 Save tasks using localStorage
+- 📱 Fully responsive UI
+- ⚡ Built with Vite for fast performance
 
 ---
 
 ## 🚀 Tech Stack
 
-- **React** (with Hooks)
-- **Vite**
-- **CSS**
-- **Vercel** for deployment
-- **localStorage** for state persistence
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- JavaScript (ES6+)
+- HTML5 & CSS3
 
 ---
 
-## 🛠️ Run Locally
+## 🛠️ Installation & Run Locally
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Steps
 
 ```bash
+git clone https://github.com/joshiyj/todo-app.git
+cd todo-app
 npm install
 npm run dev
